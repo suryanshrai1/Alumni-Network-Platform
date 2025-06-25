@@ -166,7 +166,7 @@ const Profile = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-200">
       <Navbar />
-      <div className="max-w-3xl mx-auto mt-6 p-4 sm:p-6 bg-white shadow-xl rounded-xl">
+      <div className="max-w-3xl mx-auto mt-12 mb-15 p-4 sm:p-6 bg-white shadow-xl rounded-xl">
         <h1 className="text-2xl sm:text-3xl font-bold text-center text-indigo-700 mb-6">Your Profile</h1>
 
         {!isEditing ? (

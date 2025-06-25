@@ -6,7 +6,6 @@ const RealtimeListener = () => {
   const channelRef = useRef(null);
 
   useEffect(() => {
-    // Always read user inside useEffect to avoid stale localStorage reads
     const stored = localStorage.getItem('alumniUser');
     if (!stored) {
       console.warn('[RealtimeListener] No user found in localStorage.');
@@ -45,7 +44,6 @@ const RealtimeListener = () => {
             return;
           }
 
-          // Skip if message is from self
           if (newMsg.sender_id === user.id) return;
 
           try {
@@ -57,7 +55,7 @@ const RealtimeListener = () => {
 
             if (error || !senderData) {
               console.warn('[RealtimeListener] Sender not found:', error);
-              toast.info(`📩 New message received`);
+              toast.info('📩 New message received');
               return;
             }
 
