@@ -75,6 +75,10 @@ const Home = () => {
     navigate('/dashboard', { state: { defaultTab: 'events' } });
   };
 
+  const handleJoinClick = () => {
+    navigate('/join');
+  };
+
   const formatDate = (dateStr) => {
     return new Date(dateStr).toLocaleString(undefined, {
       year: 'numeric',
@@ -107,12 +111,12 @@ const Home = () => {
           <p className="text-white text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
             Discover new opportunities, rekindle old friendships, and celebrate the achievements of our alumni family.
           </p>
-          <a
-            href="/join"
+          <button
+            onClick={handleJoinClick}
             className="bg-white text-blue-700 font-semibold px-8 py-4 rounded-full shadow-lg transform transition-all hover:bg-blue-100 hover:scale-110 hover:shadow-xl"
           >
             Join the Network
-          </a>
+          </button>
         </div>
         <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 animate-bounce text-white text-3xl md:text-4xl">
           ↓
