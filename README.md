@@ -1,3 +1,3 @@
-## Deployed Link (Line Trial)
+## Deployed Link (Live Trial)
 
 https://alumni-network-platform-six.vercel.app/
