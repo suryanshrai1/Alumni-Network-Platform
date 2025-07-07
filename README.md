@@ -1,12 +1,18 @@
-## Deployed Link (Live Trial)
 
-https://alumni-network-platform-six.vercel.app/
 
 ---
 
-# Alumni Network Platform
+# Alumni Network Platform(https://alumni-network-platform-six.vercel.app/)
 
 A modern web application for connecting alumni, sharing events, and fostering community engagement. Built with React and Supabase, the platform offers real-time chat, event management, and a searchable alumni directory—all in a responsive, user-friendly interface.
+
+---
+
+---
+
+## Deployed Link (Live Trial)
+
+https://alumni-network-platform-six.vercel.app/
 
 ---
 
@@ -108,6 +114,9 @@ This project is licensed under the [MIT License](LICENSE).
 Suryansh Rai
 Anuj Bhakat
 Saurav Suman
+---
+
+---
 
 ## 🙌 Acknowledgements
 
