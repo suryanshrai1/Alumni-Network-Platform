@@ -16,6 +16,12 @@ https://alumni-network-platform-six.vercel.app/
 
 ---
 
+---
+## Screenshots
+<img width="1892" height="1020" alt="image" src="https://github.com/user-attachments/assets/c2db0b79-b144-4507-b00c-cc858d505a6f" />
+
+---
+
 ## 🚀 Features
 
 - **User Authentication**: Secure signup and login with Supabase Auth.
