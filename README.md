@@ -2,7 +2,7 @@
 
 ---
 
-# Alumni Network Platform(https://alumni-network-platform-six.vercel.app/)
+# Alumni Network Platform
 
 A modern web application for connecting alumni, sharing events, and fostering community engagement. Built with React and Supabase, the platform offers real-time chat, event management, and a searchable alumni directory—all in a responsive, user-friendly interface.
 
